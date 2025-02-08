@@ -1,5 +1,5 @@
 ﻿@namespace FlotteApplication.Models
-@model List<Proprietaire>;
+@model List<Engin>;
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
@@ -18,13 +18,15 @@
 </head>
 <body>
     <div class="container mt-4">
-        <h1 class="display-4">Liste des propriétaires</h1>
+        <h1 class="display-4">Liste des Engins</h1>
         <table class="table table-hover">
             <thead>
                 <tr>
                     <th scope="col">Id</th>
-                    <th scope="col">Nom</th>
-                    <th scope="col">Type</th>
+                    <th scope="col">Immatriculation</th>
+                    <th scope="col">marque</th>
+                    <th scope="col">couleur</th>
+                    <th scope="col">Categorie</th>
                     <th scope="col">Actions</th>
                 </tr>
             </thead>
@@ -32,18 +34,21 @@
                 @foreach (var p in Model)
                 {
                     <tr>
-                        <td>@p.proprietaireId</td>
-                        <td>@p.name</td>
-                        <td>@p.type</td>
+                        <td>@p.enginId</td>
+                        <td>@p.immatriculation</td>
+                        <td>@p.marque</td>
+                        <td>@p.couleur</td>
+                        <td>@p.categorie</td>
+                        
+
                         <td>
                             
-                            <a href="@Url.Action("Edit", "Proprietaire", new { id = p.proprietaireId })" class="btn btn-warning">Modifier</a>
+                            <a href="@Url.Action("Edit", "Engin", new { id = p.enginId })" class="btn btn-warning">Modifier</a>
 
-                            <a href="@Url.Action("Delete", new { id = p.proprietaireId })" class="btn btn-danger">Supprimer</a>
-
+                            <a href="@Url.Action("Delete", new { id = p.enginId })" class="btn btn-danger">Supprimer</a>
                             
+                                
                             
-
                         </td>
                     </tr>
                 }
@@ -52,7 +57,7 @@
         
     </div>
     <div>
-        <a href="Proprietaire/Add" class="btn btn-warning">Ajouter</a>
+        <a href="Engin/Add" class="btn btn-warning">Ajouter</a>
     </div>
 </body>
 </html>

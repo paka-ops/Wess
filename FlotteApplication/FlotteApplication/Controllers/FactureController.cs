@@ -33,9 +33,22 @@ namespace FlotteApplication.Controllers
         }
     }
         [HttpDelete("DeleteFacture/{id}")]
-        public async Task<Facture> deleteFacture(int id)
+        public IActionResult Delete(int Id)
         {
-          return await  _repository.deleteFacture(id);
+            try
+            {
+                Task<Facture> deletedFacture = _repository.deleteFacture(Id);
+                
+                    ViewBag.Message = "L' utilisateur a été suprimé avec success";
+                    var factures = _repository.getAllFacture();
+                    return RedirectToAction("Index", factures);
+                
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Message = "L' utilisateur a été suprimé avec success";
+                return RedirectToAction("Index");
+            }
         }
         [HttpGet("Facture/{id}")]
         public async Task<Facture> getFacture(int id)

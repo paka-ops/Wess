@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_AdminLayout";
+}
+
+@namespace FlotteApplication.Models
+@model Engin;
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Gestion de Flotte</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha384-..." crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!DOCTYPE html>
+</head>
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card p-4 shadow" style="width: 100%; max-width: 400px;">
+        <h2 class="text-center mb-4">Modifier</h2>
+<form asp-action="Update" method="post">
+    
+                            <div class="form-group">
+                                <label asp-for="immatriculation" class="control-label"></label>
+                                <input asp-for="immatriculation" class="form-control" />
+                                <span asp-validation-for="immatriculation" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="marque" class="control-label"></label>
+                                <input asp-for="marque" class="form-control" />
+                                <span asp-validation-for="marque" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="couleur" class="control-label"></label>
+                                <input asp-for="couleur" class="form-control" />
+                                <span asp-validation-for="couleur" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="categorie" class="control-label"></label>
+                                <select asp-for="categorie" class="form-control">
+                                    <option value="">-- Sélectionnez une catégorie --</option>
+                                    <option value="voiture">Voiture</option>
+                                    <option value="moto">Moto</option>
+                                </select>
+                                <span asp-validation-for="categorie" class="text-danger"></span>
+                            </div>
+
+
+                            <input type="hidden" asp-for="enginId" />
+                            <div class="form-group mt-3">
+                                <button type="submit" class="btn btn-warning">Engregistre</button>
+                            </div>
+                        
+    
+</form>
+</div>
+</div>
+
+

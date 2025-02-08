@@ -32,12 +32,28 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Wess/Documents/GitHub/evaluation-paka-ops/FlotteApplication/FlotteApplication/Views/Engin/AddView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5cQWRkVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wess/Documents/GitHub/evaluation-paka-ops/FlotteApplication/FlotteApplication/Views/Engin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wess/Documents/GitHub/evaluation-paka-ops/FlotteApplication/FlotteApplication/Views/Engin/_EditProprietairePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5cX0VkaXRQcm9wcmlldGFpcmVQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Wess/Documents/GitHub/evaluation-paka-ops/FlotteApplication/FlotteApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Wess/Documents/GitHub/evaluation-paka-ops/FlotteApplication/FlotteApplication/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wess/Documents/GitHub/evaluation-paka-ops/FlotteApplication/FlotteApplication/Views/Proprietaire/AddView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcHJpZXRhaXJlXEFkZFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Wess/Documents/GitHub/evaluation-paka-ops/FlotteApplication/FlotteApplication/Views/Proprietaire/Index.cshtml]

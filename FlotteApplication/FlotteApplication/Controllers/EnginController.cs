@@ -16,46 +16,116 @@ namespace FlotteApplication.Controllers
         }
         public IActionResult Index()
         {
-            return View();
-        }
-        public Task<String> addEngin()
-        {
-            var engin = new Engin
+            var engins = _repository.getAllEngin();
+            if (engins != null)
             {
+                return View("Index", engins);
+            }
+            else
+            {
+                return View("Index");
+            }
+        }
+        public ViewResult Add()
+        {
+            return View("AddView");
+        }
+        [HttpPost]
+        public IActionResult Add(Engin engin)
+        {
 
-                immatriculation = "AA-123-BB",
-                marque = "Toyota",
-                couleur = "Blanc",
-                categorie = Categorie.Voiture, // Exemple d'une catégorie possible
-                factures = new List<Facture>
+            try
+            {
+                Task<Boolean> result = _repository.createEngin(engin);
+                if (result.Result == true)
                 {
+                    var engins = _repository.getAllEngin();
 
-                },
-            };
-            try
-            {
-                Task<String> result = _repository.createEngin(engin);
-                return result;
+                    return RedirectToAction("Index");  // Redirige vers l'action "Index"
+
+                }
+                else
+                {
+                    return View("Error");
+                }
             }
             catch (Exception ex)
             {
 
-                return null;
+                return View("Error");
             }
-
         }
-        [HttpGet("getEngin/{enginId}")]
-        public Task<Engin> GetEnginById(int enginId)
+        public IActionResult Edit(int id)
+        {
+            var engin = _repository.getEngineById(id);
+            if (engin == null)
+            {
+                return NotFound();
+            }
+            return PartialView("_EditEnginPartial", engin);
+        }
+        public ViewResult Update(Engin engin)
+        {
+            var existEngin = _repository.getEngineById(engin.enginId);
+            if (existEngin != null)
+            {
+                _repository.updateEngin(engin);
+                ViewBag.Etat = "la mise a jour efectuer avec succes ";
+                var engins = _repository.getAllEngin();
+                return View("Index", engins);
+            }
+            else
+            {
+                ViewBag.Etat = "La mise a jour a echouer";
+                return View("_EditEnginPartial");
+            }
+        }
+
+       
+        public IActionResult Delete(int Id)
         {
             try
             {
-                var result = _repository.getEngineById(enginId);
-                return result;
+                Task<Boolean> deletedEngin = _repository.deleteEngin(Id);
+                if (deletedEngin.Result == true)
+                {
+                    ViewBag.Message = "L' utilisateur a été suprimé avec success";
+                    var engins = _repository.getAllEngin();
+                    return RedirectToAction("Index", engins);
+                }
+                else
+                {
+                    ViewBag.Message = "L' utilisateur a été suprimé avec success";
+                    return RedirectToAction("Index");
+                }
+                ViewBag.Message = "L' utilisateur a été suprimé avec success";
+                return RedirectToAction("Index");
             }
             catch (Exception ex)
             {
-                return null;
+                ViewBag.Message = "L' utilisateur a été suprimé avec success";
+                return RedirectToAction("Index");
             }
         }
+        /* [HttpGet("getEngin/{enginId}")]
+         public Task<Engin> getEnginById(int enginId)
+         {
+             try
+             {
+
+                 var engin = _repository.getEnginById(enginId);
+                 return engin;
+             }catch(Exception e)
+             {
+                 return (Task<Engin>)null;
+             }
+
+         }
+
+    */
+
+
+
+
     }
 }

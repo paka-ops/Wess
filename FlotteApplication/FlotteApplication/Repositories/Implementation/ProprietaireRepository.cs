@@ -3,6 +3,7 @@ using FlotteApplication.Data;
 using FlotteApplication.Models;
 using FlotteApplication.Repositories.Interface;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 
 namespace FlotteApplication.Repositories.Implementation
@@ -47,31 +48,41 @@ namespace FlotteApplication.Repositories.Implementation
                 }
             }
         }
-        
-        public async Task<Proprietaire> deleteProprietaire(int proprietaireId)
+
+        public async Task<bool> deleteProprietaire(int proprietaireId)
         {
             using (var proprietaireContext = new DataSource())
             {
-                var proprietaire = await proprietaireContext.Proprietaire
-                    .FirstOrDefaultAsync(e => e.proprietaireId == proprietaireId);
-
-                if (proprietaire != null)
+                if (IsProprietaireExist(proprietaireId))
                 {
-                    proprietaireContext.Proprietaire.Remove(proprietaire);
-                    await proprietaireContext.SaveChangesAsync();
-                    return proprietaire; 
-                }
+                    var proprietaire = await proprietaireContext.Proprietaire
+                        .FirstOrDefaultAsync(e => e.proprietaireId == proprietaireId);
 
-                return null; 
+                    if (proprietaire != null)
+                    {
+                        proprietaireContext.Proprietaire.Remove(proprietaire);
+                        await proprietaireContext.SaveChangesAsync();
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    return false;
+                }
             }
         }
-        
-        public async  Task<Proprietaire> getProprietaireById(int proprietaireId)
+
+
+        public Proprietaire getProprietaireById(int proprietaireId)
         {
             using (var proprietaireContext = new DataSource())
             {
-                    var proprietaire = await proprietaireContext.Proprietaire
-                    .FirstOrDefaultAsync(e => e.proprietaireId == proprietaireId);
+                var proprietaire = proprietaireContext.Proprietaire
+                .FirstOrDefault(e => e.proprietaireId == proprietaireId);
 
                 if (proprietaire != null)
                 {
@@ -82,24 +93,40 @@ namespace FlotteApplication.Repositories.Implementation
                     return null;
                 }
             }
-            }
-
-        
+        }
 
         public List<Facture> getProprietaireFacture(int proprietaireId)
         {
             throw new NotImplementedException();
         }
 
-        public Proprietaire updateProprietaire(int proprietaireId)
+        public Proprietaire updateProprietaire(Proprietaire proprietaire)
         {
-            throw new NotImplementedException();
+            using (var proprietaireContext = new DataSource())
+            {
+                var isExist = IsProprietaireExist(proprietaire.proprietaireId);
+                if (isExist == true)
+                {
+                    var updateProprietaire = proprietaireContext.Proprietaire.FirstOrDefault(e => e.proprietaireId == proprietaire.proprietaireId);
+                    updateProprietaire.name = proprietaire.name;
+                    updateProprietaire.type = proprietaire.type;
+
+                    proprietaireContext.SaveChanges();
+                    return updateProprietaire;
+                }
+                else
+                {
+                    return null;
+                }
+            }
         }
 
         public List<Engin> getProprietaireEngin(int proprietaireId)
         {
-            throw new NotImplementedException();
+            return null;
         }
+
+
 
         public List<Proprietaire> getAllProprietaire()
         {
@@ -110,8 +137,7 @@ namespace FlotteApplication.Repositories.Implementation
             }
 
         }
-
-        public  String setEnginToProprietaire(Proprietaire proprietaire, Engin engin)
+        public String setEnginToProprietaire(Proprietaire proprietaire, Engin engin)
         {
             using (var proprietaireContext = new DataSource())
             {
@@ -123,15 +149,15 @@ namespace FlotteApplication.Repositories.Implementation
                     }
                     else
                     {
-                        var proprietaireEngin = proprietaireContext.Proprietaire.Include(p => p.ListEngins) 
+                        var proprietaireEngin = proprietaireContext.Proprietaire.Include(p => p.ListEngins)
                                                                                 .FirstOrDefault(p => p.proprietaireId == proprietaire.proprietaireId);
                         proprietaire.ListEngins = proprietaireEngin.ListEngins;
                     }
 
                     proprietaire.ListEngins.Add(engin);
                     var isAdd = proprietaireContext.Proprietaire.Add(proprietaire);
-                    
-                     proprietaireContext.SaveChanges();
+
+                    proprietaireContext.SaveChanges();
                     if (isAdd.GetDatabaseValues() == null)
                     {
                         return "erreur";
@@ -141,12 +167,16 @@ namespace FlotteApplication.Repositories.Implementation
                         return "ça a marché";
                     }
 
-                    
-                }catch(Exception ex)
-                { 
+
+                }
+                catch (Exception ex)
+                {
                     return "erreur" + ex.InnerException;
                 }
             }
         }
+
+
+
     }
-}
+    }

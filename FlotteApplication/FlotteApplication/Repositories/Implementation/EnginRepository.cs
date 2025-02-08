@@ -52,14 +52,12 @@ namespace FlotteApplication.Repositories.Implementation
         }
 
 
-        public Engin deleteEngin(int EnginId)
-        {
-            throw new NotImplementedException();
-        }
+        
 
-        public Engin getAllEngin()
+        public List<Engin >getAllEngin()
         {
-            throw new NotImplementedException();
+            var enginContext = new DataSource();
+            return enginContext.Engin.ToList();
         }
         
         public async Task<Engin> getEngineById(int enginId)
@@ -80,14 +78,35 @@ namespace FlotteApplication.Repositories.Implementation
             }
         }
 
-        public Engin updateEngin(int EnginId)
+        public Engin updateEngin(Engin engin)
+        {
+            throw new NotImplementedException();
+        }
+        
+
+        public Task<Boolean> createEngin(Engin engin)
         {
             throw new NotImplementedException();
         }
 
-        public Task<string> createEngin(Engin engin)
+        public async Task<bool> deleteEngin(int enginId)
         {
-            throw new NotImplementedException();
+            var enginContext = new DataSource();
+            // Rechercher l'Engin par son ID
+            var engin = await enginContext.Engin.FindAsync(enginId);
+
+            if (engin == null)
+            {
+                // Si l'Engin n'existe pas, retourner false
+                return false;
+            }
+
+            enginContext.Engin.Remove(engin);
+
+            await enginContext.SaveChangesAsync();
+
+
+            return true;
         }
     }
 }
