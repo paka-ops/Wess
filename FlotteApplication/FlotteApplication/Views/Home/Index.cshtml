@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="jumbotron">
+    <h1 class="display-4">Bienvenue sur le système de gestion de flotte d'assurance</h1>
+    <p class="lead">Cette application vous aide à gérer efficacement les véhicules et les polices d'assurance de la congrégation des sœurs Clarisse.</p>
+    <hr class="my-4">
+    <p>Avec notre système, vous pouvez :</p>
+    <ul>
+        <li>Consulter la liste des engins avec des filtres par propriétaire et catégorie.</li>
+        <li>Afficher les détails de chaque engin, y compris les cotations d'assurance et les majorations de l'économat.</li>
+        <li>Générer des factures en format PDF pour les propriétaires d'engins.</li>
+        <li>Suivre les paiements effectués par les propriétaires.</li>
+    </ul>
+    <a  asp-action="Login"  class="btn btn-primary btn-lg"  role="button">Accéder à la gestion des engins</a>
+</div>
+</body>
+</html>

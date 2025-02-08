@@ -1,0 +1,975 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\controllers\\proprietairecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\controllers\\proprietairecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\views\\proprietaire\\_editproprietairepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\views\\proprietaire\\_editproprietairepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\models\\proprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\models\\proprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\views\\proprietaire\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\views\\proprietaire\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\data\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\data\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\repositories\\implementation\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\repositories\\implementation\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\controllers\\quotationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\controllers\\quotationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\controllers\\facturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\controllers\\facturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\controllers\\engincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\controllers\\engincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\repositories\\implementation\\facturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\repositories\\implementation\\facturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\repositories\\implementation\\enginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\repositories\\implementation\\enginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\models\\facture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\models\\facture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\repositories\\interface\\iproprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\repositories\\interface\\iproprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\repositories\\interface\\iadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\repositories\\interface\\iadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\repositories\\interface\\ifacture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\repositories\\interface\\ifacture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\repositories\\interface\\iengin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\repositories\\interface\\iengin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\repositories\\implementation\\quotationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\repositories\\implementation\\quotationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\migrations\\20250207195223_flotteapplication.data.datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\migrations\\20250207195223_flotteapplication.data.datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\repositories\\interface\\iquotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\repositories\\interface\\iquotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\models\\quotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\models\\quotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\views\\shared\\_notfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\views\\shared\\_notfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\views\\shared\\_error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\views\\shared\\_error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\models\\engin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\models\\engin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207122241_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlotteApplication\\Migrations\\20250207122241_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207120129_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlotteApplication\\Migrations\\20250207120129_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207114228_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlotteApplication\\Migrations\\20250207114228_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207112311_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlotteApplication\\Migrations\\20250207112311_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207065352_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlotteApplication\\Migrations\\20250207065352_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207064159_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlotteApplication\\Migrations\\20250207064159_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\flotteapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\flotteapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\enum\\proprietairetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\enum\\proprietairetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|c:\\users\\wess\\documents\\github\\evaluation-paka-ops\\flotteapplication\\flotteapplication\\enum\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA66318B-6818-459C-8DF7-69C477F2D568}|FlotteApplication\\FlotteApplication.csproj|solutionrelative:flotteapplication\\enum\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206134509_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlotteApplication\\Migrations\\20250206134509_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206134119_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlotteApplication\\Migrations\\20250206134119_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206133704_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlotteApplication\\Migrations\\20250206133704_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206133343_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlotteApplication\\Migrations\\20250206133343_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206133002_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlotteApplication\\Migrations\\20250206133002_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206132551_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlotteApplication\\Migrations\\20250206132551_FlotteApplication.Data.DataSource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wess\\source\\repos\\WebApplication2\\WebApplication2\\Data\\StudentContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FactureController.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Controllers\\FactureController.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Controllers\\FactureController.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Controllers\\FactureController.cs",
+              "RelativeToolTip": "FlotteApplication\\Controllers\\FactureController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:14:24.56Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_EditProprietairePartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Proprietaire\\_EditProprietairePartial.cshtml",
+              "RelativeDocumentMoniker": "FlotteApplication\\Views\\Proprietaire\\_EditProprietairePartial.cshtml",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Proprietaire\\_EditProprietairePartial.cshtml",
+              "RelativeToolTip": "FlotteApplication\\Views\\Proprietaire\\_EditProprietairePartial.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T09:20:53.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "FlotteApplication\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "FlotteApplication\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T17:25:44.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FlotteApplication\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FlotteApplication\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T23:05:02.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FlotteApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FlotteApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAC8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T16:03:38.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Program.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Program.cs",
+              "RelativeToolTip": "FlotteApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T07:03:40.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FlotteApplication\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FlotteApplication\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T17:08:29.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Data\\DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Data\\DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Data\\DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Data\\DataSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T07:14:18.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FlotteApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:10:36.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "FlotteApplication\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "FlotteApplication\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T16:46:01.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "FlotteApplication\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T19:02:34.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\.editorconfig",
+              "RelativeDocumentMoniker": "FlotteApplication\\.editorconfig",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\.editorconfig",
+              "RelativeToolTip": "FlotteApplication\\.editorconfig",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-07T23:36:04.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Implementation\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Repositories\\Implementation\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Implementation\\AdminRepository.cs",
+              "RelativeToolTip": "FlotteApplication\\Repositories\\Implementation\\AdminRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwCEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T17:39:41.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QuotationController.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Controllers\\QuotationController.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Controllers\\QuotationController.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Controllers\\QuotationController.cs",
+              "RelativeToolTip": "FlotteApplication\\Controllers\\QuotationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T21:52:03.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EnginController.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Controllers\\EnginController.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Controllers\\EnginController.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Controllers\\EnginController.cs",
+              "RelativeToolTip": "FlotteApplication\\Controllers\\EnginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:13:55.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Models\\Admin.cs",
+              "RelativeToolTip": "FlotteApplication\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T16:47:21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FactureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Implementation\\FactureRepository.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Repositories\\Implementation\\FactureRepository.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Implementation\\FactureRepository.cs",
+              "RelativeToolTip": "FlotteApplication\\Repositories\\Implementation\\FactureRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T02:08:41.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EnginRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Implementation\\EnginRepository.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Repositories\\Implementation\\EnginRepository.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Implementation\\EnginRepository.cs",
+              "RelativeToolTip": "FlotteApplication\\Repositories\\Implementation\\EnginRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T01:39:22.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Facture.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Models\\Facture.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Models\\Facture.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Models\\Facture.cs",
+              "RelativeToolTip": "FlotteApplication\\Models\\Facture.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA+wA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:02:40.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IProprietaire.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Interface\\IProprietaire.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Repositories\\Interface\\IProprietaire.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Interface\\IProprietaire.cs",
+              "RelativeToolTip": "FlotteApplication\\Repositories\\Interface\\IProprietaire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T00:14:46.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IFacture.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Interface\\IFacture.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Repositories\\Interface\\IFacture.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Interface\\IFacture.cs",
+              "RelativeToolTip": "FlotteApplication\\Repositories\\Interface\\IFacture.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T00:15:07.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IEngin.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Interface\\IEngin.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Repositories\\Interface\\IEngin.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Interface\\IEngin.cs",
+              "RelativeToolTip": "FlotteApplication\\Repositories\\Interface\\IEngin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:19:06.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Interface\\IAdmin.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Repositories\\Interface\\IAdmin.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Interface\\IAdmin.cs",
+              "RelativeToolTip": "FlotteApplication\\Repositories\\Interface\\IAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T17:37:57.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "QuotationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Implementation\\QuotationRepository.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Repositories\\Implementation\\QuotationRepository.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Implementation\\QuotationRepository.cs",
+              "RelativeToolTip": "FlotteApplication\\Repositories\\Implementation\\QuotationRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAawCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T15:45:29.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250207195223_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207195223_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250207195223_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207195223_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250207195223_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T19:52:24.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IQuotation.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Interface\\IQuotation.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Repositories\\Interface\\IQuotation.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Repositories\\Interface\\IQuotation.cs",
+              "RelativeToolTip": "FlotteApplication\\Repositories\\Interface\\IQuotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T00:15:47.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Startup.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Startup.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Startup.cs",
+              "RelativeToolTip": "FlotteApplication\\Startup.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T07:04:51.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Quotation.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Models\\Quotation.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Models\\Quotation.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Models\\Quotation.cs",
+              "RelativeToolTip": "FlotteApplication\\Models\\Quotation.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:02:59.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "FlotteApplication\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "FlotteApplication\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T16:05:03.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_NotFound.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Shared\\_NotFound.cshtml",
+              "RelativeDocumentMoniker": "FlotteApplication\\Views\\Shared\\_NotFound.cshtml",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Shared\\_NotFound.cshtml",
+              "RelativeToolTip": "FlotteApplication\\Views\\Shared\\_NotFound.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T16:07:45.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Shared\\_Error.cshtml",
+              "RelativeDocumentMoniker": "FlotteApplication\\Views\\Shared\\_Error.cshtml",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Shared\\_Error.cshtml",
+              "RelativeToolTip": "FlotteApplication\\Views\\Shared\\_Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T16:06:53.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Engin.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Models\\Engin.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Models\\Engin.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Models\\Engin.cs",
+              "RelativeToolTip": "FlotteApplication\\Models\\Engin.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:01:08.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250207122241_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207122241_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250207122241_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207122241_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250207122241_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:22:41.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250207120129_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207120129_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250207120129_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207120129_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250207120129_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:01:30.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250207114228_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207114228_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250207114228_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207114228_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250207114228_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T11:42:28.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20250207112311_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207112311_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250207112311_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207112311_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250207112311_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T11:23:11.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250207065352_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207065352_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250207065352_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207065352_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250207065352_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T06:53:53.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20250207064159_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207064159_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250207064159_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250207064159_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250207064159_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T06:41:59.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Wess\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Student.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\WebApplication2\\WebApplication2\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T02:32:47.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FlotteApplication.csproj",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\FlotteApplication.csproj",
+              "RelativeDocumentMoniker": "FlotteApplication\\FlotteApplication.csproj",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\FlotteApplication.csproj",
+              "RelativeToolTip": "FlotteApplication\\FlotteApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-04T07:04:40.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProprietaireType.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Enum\\ProprietaireType.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Enum\\ProprietaireType.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Enum\\ProprietaireType.cs",
+              "RelativeToolTip": "FlotteApplication\\Enum\\ProprietaireType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T02:50:32.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Categorie.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Enum\\Categorie.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Enum\\Categorie.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Enum\\Categorie.cs",
+              "RelativeToolTip": "FlotteApplication\\Enum\\Categorie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:02:25.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250206134509_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206134509_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250206134509_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206134509_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250206134509_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:45:10.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20250206134119_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206134119_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250206134119_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206134119_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250206134119_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:41:20.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250206133704_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206133704_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250206133704_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206133704_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250206133704_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:37:05.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250206133343_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206133343_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250206133343_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206133343_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250206133343_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:33:43.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20250206133002_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206133002_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250206133002_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206133002_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250206133002_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:30:02.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250206132551_FlotteApplication.Data.DataSource.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206132551_FlotteApplication.Data.DataSource.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Migrations\\20250206132551_FlotteApplication.Data.DataSource.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Migrations\\20250206132551_FlotteApplication.Data.DataSource.cs",
+              "RelativeToolTip": "FlotteApplication\\Migrations\\20250206132551_FlotteApplication.Data.DataSource.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:25:52.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "StudentContext.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\source\\repos\\WebApplication2\\WebApplication2\\Data\\StudentContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\WebApplication2\\WebApplication2\\Data\\StudentContext.cs",
+              "ToolTip": "C:\\Users\\Wess\\source\\repos\\WebApplication2\\WebApplication2\\Data\\StudentContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\WebApplication2\\WebApplication2\\Data\\StudentContext.cs",
+              "ViewState": "AgIAAAUAAADgRZfB7BEjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T10:52:15.459Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "bce9a977-911e-4e9d-a8a6-3316d370dbdb",
+        "Display": 0,
+        "X": 634,
+        "Y": 0,
+        "Width": 652,
+        "Height": 678,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Proprietaire.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Models\\Proprietaire.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Models\\Proprietaire.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Models\\Proprietaire.cs",
+              "RelativeToolTip": "FlotteApplication\\Models\\Proprietaire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:04:26.996Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "a7371d84-db0a-4240-813d-07764faba539",
+        "Display": 0,
+        "X": 15,
+        "Y": 27,
+        "Width": 887,
+        "Height": 438,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProprietaireController.cs",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Controllers\\ProprietaireController.cs",
+              "RelativeDocumentMoniker": "FlotteApplication\\Controllers\\ProprietaireController.cs",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Controllers\\ProprietaireController.cs",
+              "RelativeToolTip": "FlotteApplication\\Controllers\\ProprietaireController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T08:11:30.818Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "578f5e4d-2549-411e-b939-d3d86da0055c",
+        "Display": 0,
+        "X": 7,
+        "Y": 254,
+        "Width": 913,
+        "Height": 441,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "FlotteApplication\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "FlotteApplication\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAADwvzsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T17:27:46.947Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "594e0199-37ae-46ac-a6ec-cda6ded7208e",
+        "Display": 0,
+        "X": 363,
+        "Y": 213,
+        "Width": 913,
+        "Height": 441,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Proprietaire\\Index.cshtml",
+              "RelativeDocumentMoniker": "FlotteApplication\\Views\\Proprietaire\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wess\\Documents\\GitHub\\evaluation-paka-ops\\FlotteApplication\\FlotteApplication\\Views\\Proprietaire\\Index.cshtml",
+              "RelativeToolTip": "FlotteApplication\\Views\\Proprietaire\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvzMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-07T20:35:54.09Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
